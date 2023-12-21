@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:user-center
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: 'jdbc:mysql://sh-cynosdbmysql-grp-ph1rq1y2.sql.tencentcdb.com:23073/sakura?userSSL=false'
+    username: root
+    password: Li@20021112
+  redis:
+    port: 6379
+    host: 124.220.62.252
+    database: 1
+    password: 12345678
+    timeout: 100000
